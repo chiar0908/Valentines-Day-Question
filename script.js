@@ -25,7 +25,7 @@ function selectOption(option) {
 
 // Function to flash rainbow colors and then execute a callback function
 function flashRainbowColors(callback) {
-    var colors = ['#d6e6ff', '#d7f9f8', '#ffffea', '#fff0d4', 'fbe0e0', '#e5d4ef', '#ffc6ff'];
+    var colors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#9400d3'];
     var i = 0;
     var interval = setInterval(function() {
         document.body.style.backgroundColor = colors[i];
@@ -78,3 +78,7 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+        
+        
+    
+    
